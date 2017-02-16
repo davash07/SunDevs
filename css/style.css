@@ -5,6 +5,46 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
+}
+
+/** Thin */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
+}
+
+/** Regular */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+/** Medium */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+}
+
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+}
+
+/** Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 700;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
 /* =======================================================
 *
 * 	Template Style 
@@ -303,7 +343,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-testimonials {
-  background: url("../images/backgroun-head-home.jpg");
 }
 #fh5co-testimonials .section-heading h2 {
   color: white;
@@ -533,7 +572,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-features {
   padding: 0;
-  background: url("../images/testiomonial-bg.jpg");
+
 }
 @media screen and (max-width: 768px) {
   #fh5co-features {
@@ -1229,5 +1268,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 .img-store-detail-app img{
   width: 250px;
+}
+.information-img img{
+  width: 750px;
+}
+.text-mision h2{
+  margin-top: -20px;
+}
+.our-belive{
+  margin-top: -80px;
+}
+.our-belive h1{
+  font-family: 'San Francisco', sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  color: #f3f3f3;
+}
+.our-belive p{
+  font-family: 'San Francisco', sans-serif;
+  font-weight: 300;
+  color: #f3f3f3;
+  font-size: 18px;
 }
 /*# sourceMappingURL=style.css.map */
