@@ -1290,4 +1290,47 @@ h1, h2, h3, h4, h5, h6 {
   color: #f3f3f3;
   font-size: 18px;
 }
+.img-team{
+  margin-top: -30px;
+}
+.img-team img{
+  text-align: center;
+  width: 300px;
+  -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 1);
+  -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 1);
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 1);
+}
+.linea-right{
+  border-right:2px solid #626262;
+}
+.linea-left{
+  border-left:2px solid #626262;
+}
+.title-services{
+  font-size: 20px;
+  font-family: 'San Francisco', sans-serif;
+  font-weight: 300;
+}
+.description-services{
+  font-family: 'San Francisco', sans-serif;
+  font-weight: 300;
+  text-align: justify;
+  font-size: 15px;
+}
+.service a{
+  color: #00b3ee;
+}
+.service a:link{
+  color: #00b3ee;
+}
+.service a:hover{
+  color: #00b3ee;
+}
+.service a:active{
+  color: #00b3ee;
+}
+.service a:before{
+  color: #00b3ee;
+}
 /*# sourceMappingURL=style.css.map */
