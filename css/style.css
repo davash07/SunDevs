@@ -4454,7 +4454,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 50px;
 }
 .img-clients img{
-  width: 320px;
+  width: 300px;
+}
+.img-clients{
+  margin-top: -10px;
+  height: 100px;
 }
 .filter-text a{
   color: #626262;
