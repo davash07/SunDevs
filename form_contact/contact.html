@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+	<title>Look I'm AJAXing!</title>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"> <!-- load bootstrap via CDN -->
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> <!-- load jquery via CDN -->
+	<script src="contact_form.js"></script>
+</head>
+<body>
+<div class="col-sm-6 col-sm-offset-3">
+
+	<!-- OUR FORM -->
+	<form action="contact_form.php" method="POST" id="form" autocomplete="off">
+        <div class="row">
+            <h2 class="" >Say Hello</h2>
+            <div class="input-field col s12 ">
+                <input id="your_name" name="your_name" type="text" class="validate">
+                <label for="your_name">Your Name</label>
+            </div>
+        </div>
+        <div class="row">
+                                    <div class="input-field col s12 ">
+                                        <input id="question" name="question" type="text" class="validate">
+                                        <label for="question">How can we help you?</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12 ">
+                                        <input id="mail" name="mail" type="email" class="validate" >
+                                        <label for="mail">Your Mail</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <textarea id="tell_us" name="tell_us" class="materialize-textarea" required></textarea>
+                                        <label for="tell_us">Tell us a little more about your project?</label>
+                                    </div>
+                                </div>
+		                      <button type="submit" class="btn btn-success">Submit <span class="fa fa-arrow-right"></span></button>
+
+<!--
+                                <button class="btn waves-effect" type="submit" name="action">SEND
+                                </button>
+-->
+                            </form>
+
+</div>
+</body>
+</html>
