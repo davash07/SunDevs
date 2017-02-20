@@ -1,7 +1,7 @@
 <?php
 //composer require mailgun/mailgun-php:~1.7.2
 # Include the Autoloader (see "Libraries" for install instructions)
-require 'vendor/autoload.php';
+require 'form_contact/vendor/autoload.php';
 use Mailgun\Mailgun;
 if (isset($_POST['name'])) {
                 $sname=$_POST['name'];
@@ -14,11 +14,10 @@ if (isset($_POST['name'])) {
 
                 $result = $mgClient->sendMessage($domain, array(
                 "from" => "Sundevs Contact <postmaster@mg.sundevs.com>",
-                "to" => "davi9719@gmail.com",
+                "to" => "fabian.leon@sundevs.com, jrodriguez@sundevs.com, davi9719@gmail.com",
                 "subject" => "$subject",
                 "text" => "
                 $msg
-las
                 $sname
                 $to"
 ));
